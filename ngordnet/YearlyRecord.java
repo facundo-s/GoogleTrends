@@ -61,7 +61,6 @@ public class YearlyRecord {
         return keys;
     }
 
-    /** idea for the Collections.sort and compare methods found on internet. */
     private void sort() {
         sortedEntries = new ArrayList<Map.Entry<String, Integer>>(recordMap.entrySet());
         Collections.sort(sortedEntries, new Comparator<Map.Entry<String, Integer>>() {
